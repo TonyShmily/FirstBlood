@@ -55,6 +55,7 @@
 		F8F201FC1CACAB6500073AF2 /* OpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F201FB1CACAB6500073AF2 /* OpacityViewController.swift */; };
 		F8FD3FDA1CACDFE300FF086E /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FD3FD91CACDFE300FF086E /* ScaleViewController.swift */; };
 		F8FD3FDC1CACFCFB00FF086E /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FD3FDB1CACFCFB00FF086E /* ColorViewController.swift */; };
+		F8FD3FDE1CAD0ED500FF086E /* RotationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FD3FDD1CAD0ED500FF086E /* RotationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +130,7 @@
 		F8F76CC11C82746B0057F4A4 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		F8FD3FD91CACDFE300FF086E /* ScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
 		F8FD3FDB1CACFCFB00FF086E /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		F8FD3FDD1CAD0ED500FF086E /* RotationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -274,6 +276,7 @@
 				F8F201FB1CACAB6500073AF2 /* OpacityViewController.swift */,
 				F8FD3FD91CACDFE300FF086E /* ScaleViewController.swift */,
 				F8FD3FDB1CACFCFB00FF086E /* ColorViewController.swift */,
+				F8FD3FDD1CAD0ED500FF086E /* RotationViewController.swift */,
 			);
 			name = Animations;
 			sourceTree = "<group>";
@@ -462,6 +465,7 @@
 				F8F201FC1CACAB6500073AF2 /* OpacityViewController.swift in Sources */,
 				F8A8E3251CA27DF500CD5E4F /* PositionViewController.swift in Sources */,
 				F8739D5B1C8045A900C4644E /* ViewController.swift in Sources */,
+				F8FD3FDE1CAD0ED500FF086E /* RotationViewController.swift in Sources */,
 				F8739D561C8045A900C4644E /* AppDelegate.swift in Sources */,
 				F8B4432C1C854AE1001BBC38 /* FindLoverVC.swift in Sources */,
 				F82FB51C1C867EF20096E0A6 /* ShowStarVC.swift in Sources */,
