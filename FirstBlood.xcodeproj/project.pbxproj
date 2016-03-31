@@ -53,6 +53,7 @@
 		F8C1151D1C8721A700B46535 /* torii.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C1151A1C8721A700B46535 /* torii.png */; };
 		F8C601F61C85E73300D4D55C /* GrilVCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C601F51C85E73300D4D55C /* GrilVCExtension.swift */; };
 		F8F201FC1CACAB6500073AF2 /* OpacityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F201FB1CACAB6500073AF2 /* OpacityViewController.swift */; };
+		F8FD3FDA1CACDFE300FF086E /* ScaleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FD3FD91CACDFE300FF086E /* ScaleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -125,6 +126,7 @@
 		F8C601F51C85E73300D4D55C /* GrilVCExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrilVCExtension.swift; sourceTree = "<group>"; };
 		F8F201FB1CACAB6500073AF2 /* OpacityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpacityViewController.swift; sourceTree = "<group>"; };
 		F8F76CC11C82746B0057F4A4 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		F8FD3FD91CACDFE300FF086E /* ScaleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +270,7 @@
 			children = (
 				F8A8E3241CA27DF500CD5E4F /* PositionViewController.swift */,
 				F8F201FB1CACAB6500073AF2 /* OpacityViewController.swift */,
+				F8FD3FD91CACDFE300FF086E /* ScaleViewController.swift */,
 			);
 			name = Animations;
 			sourceTree = "<group>";
@@ -445,6 +448,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8FD3FDA1CACDFE300FF086E /* ScaleViewController.swift in Sources */,
 				F8074E991C85D884009A812F /* GrilViewController.swift in Sources */,
 				F86F5ECF1C9BCD5E00473A3E /* TodoDetailViewController.swift in Sources */,
 				F87BE4EC1C9A828E00F84CA1 /* TodoViewController.swift in Sources */,
