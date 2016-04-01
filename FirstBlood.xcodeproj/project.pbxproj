@@ -47,6 +47,7 @@
 		F87BE4EA1C9A809000F84CA1 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87BE4E91C9A809000F84CA1 /* TodoModel.swift */; };
 		F87BE4EC1C9A828E00F84CA1 /* TodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87BE4EB1C9A828E00F84CA1 /* TodoViewController.swift */; };
 		F87E80FD1CAE0AE300A1D1FA /* RepeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E80FC1CAE0AE300A1D1FA /* RepeatViewController.swift */; };
+		F87E80FF1CAE467F00A1D1FA /* EaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E80FE1CAE467F00A1D1FA /* EaseViewController.swift */; };
 		F8A8E3251CA27DF500CD5E4F /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A8E3241CA27DF500CD5E4F /* PositionViewController.swift */; };
 		F8B4432C1C854AE1001BBC38 /* FindLoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B4432B1C854AE1001BBC38 /* FindLoverVC.swift */; };
 		F8C1151B1C8721A700B46535 /* great_wall.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C115181C8721A700B46535 /* great_wall.png */; };
@@ -122,6 +123,7 @@
 		F87BE4E91C9A809000F84CA1 /* TodoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
 		F87BE4EB1C9A828E00F84CA1 /* TodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoViewController.swift; sourceTree = "<group>"; };
 		F87E80FC1CAE0AE300A1D1FA /* RepeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatViewController.swift; sourceTree = "<group>"; };
+		F87E80FE1CAE467F00A1D1FA /* EaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EaseViewController.swift; sourceTree = "<group>"; };
 		F8A8E3241CA27DF500CD5E4F /* PositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
 		F8B4432B1C854AE1001BBC38 /* FindLoverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindLoverVC.swift; sourceTree = "<group>"; };
 		F8C115181C8721A700B46535 /* great_wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = great_wall.png; sourceTree = "<group>"; };
@@ -280,6 +282,7 @@
 				F8FD3FDB1CACFCFB00FF086E /* ColorViewController.swift */,
 				F8FD3FDD1CAD0ED500FF086E /* RotationViewController.swift */,
 				F87E80FC1CAE0AE300A1D1FA /* RepeatViewController.swift */,
+				F87E80FE1CAE467F00A1D1FA /* EaseViewController.swift */,
 			);
 			name = Animations;
 			sourceTree = "<group>";
@@ -462,6 +465,7 @@
 				F86F5ECF1C9BCD5E00473A3E /* TodoDetailViewController.swift in Sources */,
 				F87BE4EC1C9A828E00F84CA1 /* TodoViewController.swift in Sources */,
 				F8FD3FDC1CACFCFB00FF086E /* ColorViewController.swift in Sources */,
+				F87E80FF1CAE467F00A1D1FA /* EaseViewController.swift in Sources */,
 				F87E80FD1CAE0AE300A1D1FA /* RepeatViewController.swift in Sources */,
 				F87BE4EA1C9A809000F84CA1 /* TodoModel.swift in Sources */,
 				F8C601F61C85E73300D4D55C /* GrilVCExtension.swift in Sources */,
