@@ -299,6 +299,43 @@
             </objects>
             <point key="canvasLocation" x="2178" y="-1285"/>
         </scene>
+        <!--Spring View Controller-->
+        <scene sceneID="qoN-SJ-7To">
+            <objects>
+                <viewController id="pTO-V5-Nad" customClass="SpringViewController" customModule="订单汇" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Had-7v-0Qs">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="Ibu-vI-Hq9">
+                                <rect key="frame" x="20" y="89" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="DRl-9f-uhL">
+                                <rect key="frame" x="20" y="198" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" id="0e2-yU-y0Z">
+                                <rect key="frame" x="20" y="308" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="IvY-CV-GY2"/>
+                    <connections>
+                        <outlet property="greenSquare" destination="Ibu-vI-Hq9" id="5ny-iu-rzu"/>
+                        <outlet property="redSquare" destination="DRl-9f-uhL" id="bFP-Ew-5eE"/>
+                        <outlet property="yellowSquare" destination="0e2-yU-y0Z" id="tfI-kG-ZRm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c4m-ji-9Pb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2541" y="-1285"/>
+        </scene>
         <!--动画效果-->
         <scene sceneID="g5u-rE-x9D">
             <objects>
@@ -448,6 +485,26 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="Ldc-YL-kmH" kind="push" id="dBt-KC-4pc"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="jV5-Ip-5mg" style="IBUITableViewCellStyleDefault" id="fnR-VS-Aah">
+                                        <rect key="frame" x="0.0" y="372" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fnR-VS-Aah" id="rG5-9o-Fyg">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Spring" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jV5-Ip-5mg">
+                                                    <rect key="frame" x="15" y="0.0" width="270" height="43.5"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="pTO-V5-Nad" kind="push" id="Jed-P5-lT2"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
