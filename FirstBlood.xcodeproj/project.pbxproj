@@ -49,6 +49,7 @@
 		F87E80FD1CAE0AE300A1D1FA /* RepeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E80FC1CAE0AE300A1D1FA /* RepeatViewController.swift */; };
 		F87E80FF1CAE467F00A1D1FA /* EaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E80FE1CAE467F00A1D1FA /* EaseViewController.swift */; };
 		F87E81011CAE524F00A1D1FA /* SpringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E81001CAE524F00A1D1FA /* SpringViewController.swift */; };
+		F89198131CAFB1F200DE32A2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89198121CAFB1F200DE32A2 /* LoginViewController.swift */; };
 		F8A8E3251CA27DF500CD5E4F /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A8E3241CA27DF500CD5E4F /* PositionViewController.swift */; };
 		F8B4432C1C854AE1001BBC38 /* FindLoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B4432B1C854AE1001BBC38 /* FindLoverVC.swift */; };
 		F8C1151B1C8721A700B46535 /* great_wall.png in Resources */ = {isa = PBXBuildFile; fileRef = F8C115181C8721A700B46535 /* great_wall.png */; };
@@ -126,6 +127,7 @@
 		F87E80FC1CAE0AE300A1D1FA /* RepeatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatViewController.swift; sourceTree = "<group>"; };
 		F87E80FE1CAE467F00A1D1FA /* EaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EaseViewController.swift; sourceTree = "<group>"; };
 		F87E81001CAE524F00A1D1FA /* SpringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringViewController.swift; sourceTree = "<group>"; };
+		F89198121CAFB1F200DE32A2 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		F8A8E3241CA27DF500CD5E4F /* PositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
 		F8B4432B1C854AE1001BBC38 /* FindLoverVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindLoverVC.swift; sourceTree = "<group>"; };
 		F8C115181C8721A700B46535 /* great_wall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = great_wall.png; sourceTree = "<group>"; };
@@ -286,6 +288,7 @@
 				F87E80FC1CAE0AE300A1D1FA /* RepeatViewController.swift */,
 				F87E80FE1CAE467F00A1D1FA /* EaseViewController.swift */,
 				F87E81001CAE524F00A1D1FA /* SpringViewController.swift */,
+				F89198121CAFB1F200DE32A2 /* LoginViewController.swift */,
 			);
 			name = Animations;
 			sourceTree = "<group>";
@@ -467,6 +470,7 @@
 				F8074E991C85D884009A812F /* GrilViewController.swift in Sources */,
 				F86F5ECF1C9BCD5E00473A3E /* TodoDetailViewController.swift in Sources */,
 				F87BE4EC1C9A828E00F84CA1 /* TodoViewController.swift in Sources */,
+				F89198131CAFB1F200DE32A2 /* LoginViewController.swift in Sources */,
 				F8FD3FDC1CACFCFB00FF086E /* ColorViewController.swift in Sources */,
 				F87E81011CAE524F00A1D1FA /* SpringViewController.swift in Sources */,
 				F87E80FF1CAE467F00A1D1FA /* EaseViewController.swift in Sources */,
